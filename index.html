@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life Drop</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <header
+      class="sticky top-0 z-10 w-full bg-slate-900 border-b border-slate-500"
+    >
+      <nav class="flex justify-between items-center w-full px-20 py-4">
+        <div class="logo flex flex-col items-center gap-0">
+          <a href="index.html" class="text-[#b91C1C] font-bold text-xl"
+            >LifeDrop</a
+          >
+          <p class="text-red-300 font-extralight -mt-1">
+            Every Drop Saves a Life
+          </p>
+        </div>
+
+        <ul
+          class="flex justify-center items-center gap-6 text-white [&_a:hover]:text-[#b91C1C] [&_a]:font-medium"
+        >
+          <li><a href="index.html">Home</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="stories.html">Stories</a></li>
+          <li><a href="getInvolved.html">Get Involved</a></li>
+        </ul>
+        <a href="#" class="text-white px-4 py-2 bg-red-700 font-bold rounded-md "
+          >Donate Blood</a
+        >
+      </nav>
+    </header>
+    <section
+      class="flex flex-col justify-center items-center bg-red-900 min-h-[80vh]"
+    >
+      <h1 class="text-white font-extrabold text-5xl">
+        Your Blood Can Save a Life
+      </h1>
+      <p class="text-white my-4">
+        Join our community of donors and help patients in need across Dera
+        Ismail Khan.
+      </p>
+      <div class="btn flex gap-3">
+        <button class="bg-red-700 px-7 py-3 rounded-md text-white cursor-pointer">
+          Donate Blood
+        </button>
+        <button class="px-7 py-3 border-2 border-white rounded text-white hover:bg-white hover:text-red-700 cursor-pointer">
+          Our Programs
+        </button>
+      </div>
+    </section>
+    <section
+      class="w-full grid grid-cols-4 gap-6 justify-items-center py-8 bg-slate-800 [&_div_h2]:text-red-700 [&_div_h2]:font-bold [&_div_h2]:text-3xl [&_div_p]:text-white "
+    >
+      <div>
+        <h2>5,000+</h2>
+        <p>Units Donated</p>
+      </div>
+      <div>
+        <h2>2,300</h2>
+        <p>Donors Registered</p>
+      </div>
+      <div>
+        <h2>120</h2>
+        <p>Drives Held</p>
+      </div>
+      <div>
+        <h2>1,5000</h2>
+        <p>Lives Saved</p>
+      </div>
+    </section>
+    <section class="bg-slate-900 text-white py-[40px]">
+      <h2 class="text-center text-3xl font-bold">What we do</h2>
+      <div class="p-6 py-7 grid grid-cols-3 justify-items-center">
+        <article class="bg-slate-800 p-5 rounded-sm w-[350px]">
+          <figure class="w-[300px] h-[200px]">
+            <img
+              src="Images/amari-shutters-Vw2O5QkDJQo-unsplash.jpg"
+              alt="first image"
+              class="object-cover w-full h-full rounded-sm"
+            />
+          </figure>
+          <h2 class="text-2xl pt-4 font-semibold">Emergency Requests</h2>
+          <p class="text-[17px] pt-3 text-slate-300 font-normal">
+            We connect patients with matching donors within hours.
+          </p>
+        </article>
+        <article class="bg-slate-800 p-5 rounded-sm w-[350px]">
+          <figure class="w-[300px] h-[200px]">
+            <img
+              src="Images/nguy-n-hi-p-2rNHliX6XHk-unsplash.jpg"
+              alt="second image"
+              class="object-cover w-full h-full rounded-sm"
+            />
+          </figure>
+          <h2 class="text-2xl pt-4 font-semibold">Awareness Camps</h2>
+          <p class="text-[17px] pt-3 text-slate-300 font-normal">
+            Schools and colleges learn why one donation matters.
+          </p>
+        </article>
+        <article class="bg-slate-800 p-5 rounded-sm w-[350px]">
+          <figure class="w-[300px] h-[200px]">
+            <img
+              src="Images/nguy-n-hi-p-sTTeaN4wwrU-unsplash.jpg"
+              alt="Third Image"
+              class="object-cover w-full h-full rounded-sm"
+            />
+          </figure>
+          <h2 class="text-2xl pt-4 font-semibold">Monthly Blood Drive</h2>
+          <p class="text-[17px] pt-3 text-slate-300 font-normal">
+            Every month we set up a camp so anyone can donate safely.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section class="bg-red-800 flex flex-col justify-center items-center py-10">
+      <h2 class="text-white font-bold text-3xl">Ready to save a life?</h2>
+      <button class="bg-white text-red-600 px-6 py-2 rounded-sm mt-[20px]">
+        Become a Volunteer
+      </button>
+    </section>
+    <section class="flex flex-col items-center justify-center py-6 bg-slate-800 text-white">
+      <ul class="flex gap-2 [&_a]:hover:text-red-700 ">
+        <li><a href="index.html">Home</a></li><span>.</span>
+        <li><a href="programs.html">Programs</a></li><span>.</span>
+        <li><a href="stories.html">Stories</a></li><span>.</span>
+        <li><a href="getInvolved.html">Get Involved</a></li><span>.</span> 
+      </ul>
+      <h3 class="pt-1">&copy 2026 LifeFlow</h3>
+    </section>
+  </body>
+</html>
